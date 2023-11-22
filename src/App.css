@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.divi
+{
+  padding-left: 600px;
+  padding-top: 250px;
+}
+.tab
+{
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom, rgba(184, 62, 164, 0.5), rgb(72, 199, 182));
+
+  height: 200px;
+  width:  450px;
+ 
+}
+button{
+  background-image: linear-gradient(to bottom, rgba(62, 168, 184, 0.5), rgb(199, 72, 104));
+height: 50px;
+margin-left: 200px;
+border-radius: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
